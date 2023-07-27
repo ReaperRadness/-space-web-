@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar News Network - Latest Space News</title>
+    <link rel="stylesheet" href="SpaceNewsStyle.css">
+</head>
+<body>
+    <header>
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <!-- Insert your logo image here -->
+                    <img src="logo.jpg" alt="Stellar Explorers Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#cosmic-explorer">Cosmic Explorer</a></li>
+                        <li><a href="#stellar-news">Stellar News</a></li>
+                        <li><a href="#astropix">AstroPix</a></li>
+                        <li><a href="#galactipedia">GalactiPedia</a></li>
+                        <li><a href="#star-seekers-academy">Star Seekers Academy</a></li>
+                        <li><a href="#celestial-events">Celestial Events</a></li>
+                        <li><a href="C:\SpaceWebsite\FrontEnd\SpaceTech\SpaceTech.html">SpaceTech Hub</a></li>
+                        <li><a href="#space-explorers-forum">Space Explorers Forum</a></li>
+                        <li><a href="#cosmic-kids-corner">Cosmic Kids Corner</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </header>
+
+    <section class="hero">
+        <!-- Hero section content here -->
+    </section>
+
+    <section class="latest-news-showcase">
+        <h2>Latest News</h2>
+        <div class="latest-articles">
+            <div class="article">
+                <h3>Discovery of New Exoplanet</h3>
+                <p class="article-date">Published on July 18, 2023</p>
+                <img src="exoplanet-image.jpg" alt="Exoplanet">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam finibus odio in orci rhoncus...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <!-- Add more articles in the same format -->
+        </div>
+    </section>
+
+    <!-- Insert News Not Sure
+    <section id="submit-article">
+        <h2>Submit an Article</h2>
+        <form id="article-form">
+          <div>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+          </div>
+          <div>
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required>
+          </div>
+          <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div>
+            <label for="content">Content:</label>
+            <textarea id="content" name="content" rows="5" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>-->
+
+    <div class="content-wrapper">
+
+        <!-- ... (Other sections of the website) ... -->
+
+        <!-- All News Showcase starts here -->
+        <section class="all-news-showcase">
+            <h2>All News</h2>
+            <div class="news-grid" id="news-grid">
+                <!-- News articles will be dynamically populated here using JavaScript -->
+            </div>
+        </section>
+        <section class="news-section">
+            <h2>Space Discoveries</h2>
+            <div class="news-grid" id="space-discoveries">
+                <!-- Space discoveries articles will be dynamically populated here using JavaScript -->
+            </div>
+        </section>
+        <!-- Space Discoveries Showcase ends here -->
+
+        <!-- Astronomy Events Showcase starts here -->
+        <section class="news-section">
+            <h2>Astronomy Events</h2>
+            <div class="news-grid" id="astronomy-events">
+                <!-- Astronomy events articles will be dynamically populated here using JavaScript -->
+            </div>
+        </section>
+        <!-- Astronomy Events Showcase ends here -->
+
+        <!-- Space Missions Showcase starts here -->
+        <section class="news-section">
+            <h2>Space Missions</h2>
+            <div class="news-grid" id="space-missions">
+                <!-- Space missions articles will be dynamically populated here using JavaScript -->
+            </div>
+        </section>
+
+        <!-- All News Showcase ends here -->
+        <section id="space-news">
+            <h2>SpaceNews</h2>
+            <!-- News cards will be dynamically added here -->
+          </section>
+        <!-- Rest of your content here -->
+
+    </div>
+
+    <div id="back-to-home-container">
+        <a href="C:\SpaceWebsite\FrontEnd\SpaceWeb\SpaceWeb.html">Back to Home</a>
+      </div>
+    
+      
+
+    <!-- Rest of your content here -->
+
+    <footer>
+        <footer>
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>Contact Us</h3>
+                    <p>Email: contact@stellarexplorers.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="social-media">
+                    <!-- Add social media icons and links here -->
+                    <a href="#" class="social-icon"><img src="C:\SpaceWebsite\FrontEnd\Facebook_Logo.jpg" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="C:\SpaceWebsite\FrontEnd\Twitter_Logo.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="C:\SpaceWebsite\FrontEnd\Instagram_Logo.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <p>&copy; 2023 Stellar Explorers. All rights reserved.</p>
+        </footer>>
+    </footer>
+
+    <script ></script>
+
+    <script>    
+        const fetchNews = async () => {
+        console.log("Fetching News...");
+        var url = 'https://newsapi.org/v2/everything?' +
+          'q=Apple&' +
+          'from=2023-07-24&' +
+          'pageSize=20&' +
+          'page=2' +
+          'sortBy=popularity&' +
+          'apiKey=f5540772acb04cf6ba826a58eb355d1e';
+
+            var req = new Request(url);
+
+           let a = await fetch(req)
+           let response = await a.json
+            console.log(response.json)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,348 @@
+/* Rest of your styles */
+
+.stellar-news {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.stellar-news h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.stellar-news p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.article {
+    margin-bottom: 40px;
+}
+
+.article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.article img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.article p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #FFA500;
+}
+
+/* Rest of your styles */
+
+html, body {
+    height: 100%; /* Make sure the body takes up the full viewport height */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Add a wrapper to push the content to the bottom of the screen */
+.content-wrapper {
+    flex: 1;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px; /* Adjust the logo size as needed */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    min-height: 100px; /* Set a minimum height for the footer */
+    margin-top: auto; /* Push the footer to the bottom of the container */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.social-icon img {
+    max-height: 30px; /* Adjust the social media icon size as needed */
+    margin-right: 10px;
+}
+
+.latest-news-showcase {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+.latest-news-showcase h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.latest-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.article {
+    max-width: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.article img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.article p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #FFA500;
+}
+
+.all-news-showcase {
+    padding: 40px;
+    text-align: center;
+}
+
+.all-news-showcase h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.article {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    overflow: hidden; /* To ensure consistent height for all articles */
+}
+
+.article img {
+    width: 100%;
+    height: 200px; /* Adjust the image height as needed */
+    object-fit: cover;
+    object-position: center;
+}
+
+.article h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.article-date {
+    color: #666;
+    font-size: 14px;
+    margin: 0 10px 10px;
+}
+
+.article p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 10px 10px;
+}
+
+.read-more {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #FFA500;
+}
+
+.news-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.news-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* styles.css */
+/* Your existing styles go here */
+
+#back-to-home-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #back-to-home-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  #back-to-home-container a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* styles.css */
+/* Your existing styles go here */
+
+#space-news {
+    padding: 20px;
+  }
+  
+  #space-news h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  /* News Card Styles */
+  .news-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .news-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .news-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .news-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .news-card a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .news-card a:hover {
+    background-color: #0056b3;
+  }
+  
